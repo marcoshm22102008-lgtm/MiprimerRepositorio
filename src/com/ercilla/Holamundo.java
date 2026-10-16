@@ -2,6 +2,8 @@ package com.ercilla;
 
 public class Holamundo {
     public static void main(String[] args) {
-         System.out.println("Hola mundo");
+         Mensaje msg = new Mensaje();
+         String nombre = msg.solicitardatos("Escribe tu nombre: ");
+
     }
 }
